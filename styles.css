@@ -158,10 +158,10 @@ select {
 }
 
 .add-to-cart-btn {
-  padding: 10px 15px;
+  padding: 10px 45px;
   font-size: 14px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #076fe5;
   color: white;
   cursor: pointer;

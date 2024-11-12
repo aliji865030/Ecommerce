@@ -61,7 +61,7 @@ function displayProducts(productList) {
       <h3 class="product-name">${productName}</h3>
       <p class="product-price"> &#8377;${productPrice}</p>
       <p class="product-description">${productDescription}</p>
-      <button class="add-to-cart-btn">Add to Cart</button>
+      <button class="add-to-cart-btn"> <i class="fa-solid fa-cart-shopping"></i> <span>Add to Cart</span></button>
     `;
 
     const addToCartBtn = productCard.querySelector(".add-to-cart-btn");
