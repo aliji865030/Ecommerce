@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecommerce</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Loader with Sorting and Add to Cart</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Loader  -->
+    <div class="loader" id="loader" style="display: none">
+      <div class="justify-content-center jimu-primary-loading"></div>
+    </div>
+
+    <button id="loadProducts">Load Products</button>
+
+    <!-- Sort Section -->
+    <div id="sortSection" style="display: none">
+      <div>
+        <h1>All Collection</h1>
+      </div>
+      <div>
+        <select id="sortFilter">
+          <option value="">Filter products</option>
+          <option value="lowToHigh">Low to High</option>
+          <option value="highToLow">High to Low</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="productGrid"></div>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
